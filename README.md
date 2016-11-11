@@ -60,6 +60,73 @@ Maximum Value :2147483647
 คำสั่งสำหรับการทดลอง
 ให้นักศึกษา เขียนโปรแกรมคล้ายกับตัวอย่างที่ 1 โดยมีชนิดข้อมูลเป็น byte, char, bool, sbyte, short, ushort, uint, float, double, decimal, long และ ulong
 
+
+byte <br>
+```
+
+```
+![](https://github.com/HoneyApinya/LAB-07/blob/master/7.1.png?raw=true)
+char <br>
+```
+
+```
+![](https://github.com/HoneyApinya/LAB-07/blob/master/7.2.png?raw=true)
+bool <br>
+```
+
+```
+![](https://github.com/HoneyApinya/LAB-07/blob/master/7.3.png?raw=true)
+sbyte <br>
+```
+
+```
+![](https://github.com/HoneyApinya/LAB-07/blob/master/7.4.png?raw=true)
+short <br>
+```
+
+```
+![](https://github.com/HoneyApinya/LAB-07/blob/master/7.5.png?raw=true)
+ushort <br>
+```
+
+```
+![](https://github.com/HoneyApinya/LAB-07/blob/master/7.6.png?raw=true)
+uint <br>
+```
+
+```
+![](https://github.com/HoneyApinya/LAB-07/blob/master/7.7.png?raw=true)
+float <br>
+```
+
+```
+![](https://github.com/HoneyApinya/LAB-07/blob/master/7.8.png?raw=true)
+double <br>
+```
+
+```
+![](https://github.com/HoneyApinya/LAB-07/blob/master/7.9.png?raw=true)
+decimal<br>
+```
+
+```
+![](https://github.com/HoneyApinya/LAB-07/blob/master/7.91.png?raw=true)
+
+long<br>
+```
+
+```
+![](https://github.com/HoneyApinya/LAB-07/blob/master/7.92.png?raw=true)
+
+ulong <br>
+```
+           Console.WriteLine("Data type : ulong");
+            Console.WriteLine("Size :" + sizeof(ulong));
+            Console.WriteLine("Minimum Value :" + ulong.MinValue);
+            Console.WriteLine("Maximum Value :" + ulong.MaxValue);
+```
+![](https://github.com/HoneyApinya/LAB-07/blob/master/7.93.png?raw=true)
+
 **หมายเหตุ**
  
 ชนิดข้อมูล ```bool``` เก็บข้อมูลได้เฉพาะ ```true``` และ ```false``` ไม่ต้องหา ```MinValue``` และ ```MaxValue```
